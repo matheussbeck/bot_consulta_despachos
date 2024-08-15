@@ -56,7 +56,7 @@ def verificar_e_criar_tabela_consultas():
 
 # Função para carregar dados e realizar transformações
 def carregar_dados_transformar():
-    parquet_file = "ciclos_aguia_2024-07-14.parquet"
+    parquet_file = "base_despachos.parquet"
     df = pd.read_parquet(parquet_file)
 
     # Seleção de Colunas e transformações
